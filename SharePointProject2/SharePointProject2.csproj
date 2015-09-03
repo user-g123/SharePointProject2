@@ -64,6 +64,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>VisualWebPart1.ascx</DependentUpon>
     </Compile>
+    <Compile Include="VisualWebPart2\VisualWebPart2.ascx.cs">
+      <DependentUpon>VisualWebPart2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="VisualWebPart2\VisualWebPart2.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VisualWebPart2.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\Feature1\Feature1.feature">
@@ -80,6 +88,10 @@
       <SharePointProjectItemId>{39bf58fc-f5b7-4087-a206-b1fb83d77d70}</SharePointProjectItemId>
     </None>
     <None Include="VisualWebPart1\VisualWebPart1.webpart" />
+    <None Include="VisualWebPart2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d15ada4-83cd-4c51-b2a6-79f7c511ec2f}</SharePointProjectItemId>
+    </None>
+    <None Include="VisualWebPart2\VisualWebPart2.webpart" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -90,6 +102,11 @@
     <Content Include="VisualWebPart1\VisualWebPart1.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>VisualWebPart1.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="VisualWebPart2\Elements.xml" />
+    <Content Include="VisualWebPart2\VisualWebPart2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>VisualWebPart2.ascx.g.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
