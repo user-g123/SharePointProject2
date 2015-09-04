@@ -6,4 +6,5 @@
 <%@ Import Namespace="Microsoft.SharePoint" %> 
 <%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="VisualWebPart2.ascx.cs" Inherits="SharePointProject2.VisualWebPart2.VisualWebPart2" %>
-<asp:Label ID="Label1" runat="server" Text="Label2"></asp:Label>
+<asp:Label ID="Label1" runat="server" Text="Label12"></asp:Label>
+<asp:Label ID="Label2" runat="server" Text="Label22"></asp:Label>
