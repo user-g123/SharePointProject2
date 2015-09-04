@@ -8,3 +8,4 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="VisualWebPart2.ascx.cs" Inherits="SharePointProject2.VisualWebPart2.VisualWebPart2" %>
 <asp:Label ID="Label1" runat="server" Text="Label12"></asp:Label>
 <asp:Label ID="Label2" runat="server" Text="Label22"></asp:Label>
+<asp:Label ID="Label3" runat="server" Text="Label33"></asp:Label>

@@ -42,6 +42,8 @@ namespace SharePointProject2.VisualWebPart2 {
         
         protected global::System.Web.UI.WebControls.Label Label2;
         
+        protected global::System.Web.UI.WebControls.Label Label3;
+        
         public static implicit operator global::System.Web.UI.TemplateControl(VisualWebPart2 target) 
         {
             return target == null ? null : target.TemplateControl;
@@ -70,6 +72,17 @@ namespace SharePointProject2.VisualWebPart2 {
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        private global::System.Web.UI.WebControls.Label @__BuildControlLabel3() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            this.Label3 = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "Label3";
+            @__ctrl.Text = "Label33";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         private void @__BuildControlTree(global::SharePointProject2.VisualWebPart2.VisualWebPart2 @__ctrl) {
             global::System.Web.UI.WebControls.Label @__ctrl1;
             @__ctrl1 = this.@__BuildControlLabel1();
@@ -79,6 +92,10 @@ namespace SharePointProject2.VisualWebPart2 {
             global::System.Web.UI.WebControls.Label @__ctrl2;
             @__ctrl2 = this.@__BuildControlLabel2();
             @__parser.AddParsedSubObject(@__ctrl2);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n"));
+            global::System.Web.UI.WebControls.Label @__ctrl3;
+            @__ctrl3 = this.@__BuildControlLabel3();
+            @__parser.AddParsedSubObject(@__ctrl3);
         }
         
         private void InitializeControl() {
